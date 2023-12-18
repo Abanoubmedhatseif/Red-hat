@@ -78,8 +78,6 @@
 ![Screenshot from 2023-11-26 14-01-30](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/4413b702-e71a-4c24-a92b-a6f28d58b416)
 
 
-##differences between compress and gzip commands.
-
 
 ##2. What is the command used to view the content of a compressed file.
 
