@@ -172,6 +172,8 @@
 
 ## 12.	##  You want to know some information about the status of the system every ten minutes today between the hours ##of  8:00 AM and 5:00 PM. to help investigate some performance issues you have been having. You suspect it might be  ##memory related and want to keep an eye on those resources.
 
+*/10 8-17 * * * /home/abanoub/status.sh
+
 
 ## 13.	## Use mail as the root user to check for e-mail from the cron jobs you have scheduled.
 
@@ -183,37 +185,24 @@
  
  
 ## # Using yum
-## 17. ## Attempt to run the command gnuplot. You should find that it is not installed.
 
+ ## Install the gnuplot package.
+![Screenshot from 2023-12-21 22-38-54](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/a6c83bc5-9ca5-4e21-a352-209a3def8b16)
 
-## 18. ## Search for the plotting packages.
-
-
-## 19. ## Find out more information about the gunuplot package.
-
-
-## 20. ## Install the gnuplot package.
-
-
-## 21. ## Attempt to remove the gnuplot package, but say no How many packages would be removed
-
-
-## 21. ## Attempt to remove the gunplot-common package but say no How many packages would be removed Using rpm
-
-
-## 22. ## List all installed packages in your system.
-
-
-## 23. ## View the files in the initscripts package
 
 
 ## 24. ## Get general information about bash rpm.
+![Screenshot from 2023-12-21 22-42-53](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/3e5f0a47-edf1-4de0-a38c-06aa13bca5cb)
 
 
-## 25. ## Have the files from the pam package changed since it wasinstalled.
+## 25. ## Have the files from the pam package changed since it was installed.
+![Screenshot from 2023-12-21 22-43-42](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/8fedfb6e-09a4-49c6-81f9-a74b9bb8d118)
+
 
 
 ## 26. ## Which installed packages have gnome in their names?
+
+![Screenshot from 2023-12-21 22-44-19](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/9373c1da-2bdd-434e-8575-dbbd2ed22cf1)
 
 
 ## 27. ## Install any uninstalled package from RH Enterprise Linux cds
@@ -222,9 +211,14 @@
 ## 28. ## Search for software resemble the Photoshop software other than Gimp and install it.
 
 
+![Screenshot from 2023-12-21 22-50-59](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/660d2906-9c6f-47b6-b7cb-d3148b244514)
+
 ## 29. ## Create the file /etc/yum.repos.d/cdrom.repo to enable install from the iso from the iso of Red Hat.
+
+![Screenshot from 2023-12-21 22-53-15](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/9f5cde6f-cae9-43d2-89b7-c6e24962d677)
 
 
 ## 30. ## Try to install any package from the new repository
 
+![Screenshot from 2023-12-21 22-54-19](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/226fbeaa-0fcf-4746-8f26-ec5a4de7c704)
 
