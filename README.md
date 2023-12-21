@@ -140,36 +140,34 @@
 
 # Lab 6
 ## 1.	##  Use systemctl to view the status of all the system services.
+![Screenshot from 2023-12-21 22-09-49](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/e22d872e-a650-401a-8eba-48d0fd5fa9ea)
 
 
 ## 2.	##  Change the default run level back to multi-user.target and reboot.
+## systemctl set-default multi-user.target reboot
 
 
 ## 3.	##  Send mail to the root user.
-
-
-## 4.	##  Verify that you have received this mail.
+## echo "message" | mail -s "Subject" root
 
 
 ## 5.	##  Use  systemctl utility to stop postfix service
+## systemctl stop postfix
 
 
 ## 6.	##  Send mail again to the root user.
-
-
-## 7.	##  Verify that you have received this mail.
+## echo "message" | mail -s "Subject" root
 
 
 ## 8.	##  Use systemctl utility to start postfix service
+## systemctl start postfix
 
 
-## 9.	##  Verify that you have received this mail.
 
-
-## 10.	##  Edit in the GRUB2 configuration file and change the timeout variable equal 20 seconds.
-
-
+## 10.	##  Edit in the GRUB2 configuration file and change the timeout variable equal 20 seconds
 ## 11.	##   Edit in the GRUB2 configuration file and change your default operating system
+
+![Screenshot from 2023-12-21 22-31-36](https://github.com/Abanoubmedhatseif/Red-hat/assets/146996493/182a9943-1330-4b9d-89ae-fa4b7b0ddb29)
 
 
 ## 12.	##  You want to know some information about the status of the system every ten minutes today between the hours ##of  8:00 AM and 5:00 PM. to help investigate some performance issues you have been having. You suspect it might be  ##memory related and want to keep an eye on those resources.
